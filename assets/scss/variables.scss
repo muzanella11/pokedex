@@ -1,0 +1,73 @@
+/********** For Prefix and Namespace *********/
+$prefix:               enem !default;
+$namespace:            #{$prefix}-themes !default;
+
+/* ************************************ */
+
+/********** For Media Queries *********/
+/** For Extra Small Screen / Phone **/
+$screen-xs:            480px !default;
+$screen-xs:            $screen-xs !default;
+$screen-phone:         $screen-xs !default;
+
+/** For Small Screen / Tablet **/
+$screen-sm:            768px !default;
+$screen-sm-min:        $screen-sm !default;
+$screen-tablet:        $screen-sm-min !default;
+
+/** For Medium Screen / Desktop **/
+$screen-md:            992px !default;
+$screen-md-min:        $screen-md !default;
+$screen-medium:        $screen-md-min !default;
+
+/** For Large Screen / Wide Desktop **/
+$screen-lg:            1200px !default;
+$screen-lg-min:        $screen-lg !default;
+$screen-large:         $screen-lg-min !default;
+
+/** For Screen Max **/
+$screen-xs-max:                  ($screen-sm-min - 1) !default;
+$screen-sm-max:                  ($screen-md-min - 1) !default;
+$screen-md-max:                  ($screen-lg-min - 1) !default;
+
+/* ************************************ */
+
+/************** Theme Color **************/
+$color-primary: #7C0A27;
+$color-secondary: #B0824C;
+$color-text-grey: #787878;
+$color-primary-grey: #E8E8E8;
+$color-gold: #E8BF8E;
+$color-gold-dark: #9B5400;
+$color-blue-sky: #F1F6FA;
+$color-white: #FFF;
+$color-default: #9B9B9B;
+$color-black: #000;
+$color-text: #333;
+$color-grey: #999;
+$color-dark: #384044;
+$color-dark-grey: #38404C;
+$color-paragraph: #898989;
+$color-semi-dark-grey: #54585F;
+$color-semi-dark: #616161;
+$color-semi-grey: #54585A;
+$color-semi-white-grey: #DDD;
+$color-orange-filter: #E94F35;
+$color-light-grey: #DDD;
+$color-icon-grey:  #54585A;
+$color-link-hover: #23527C;
+$color-green: #2ECC71;
+$color-front-star: #77A3B6;
+$color-back-star: #CCC;
+$color-red: #E54166;
+$color-semi-red: #F45252;
+$color-map-yellow: #FCF669;
+$color-map-blue: #6991FD;
+$color-map-lightblue: #67DDDD;
+$color-map-orange: #F90;
+$color-map-pink: #E660AC;
+$color-map-purple: #8D67FD;
+$color-map-red: #FD7667;
+$color-map-green: #04E64D;
+
+/* ************************************ */

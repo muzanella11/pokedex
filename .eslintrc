@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "extends": [
+    "standard"
+  ],
+  "plugins": [],
+  "globals": {},
+  "rules": {
+    // allow new
+    "no-new": 0,
+    // allow paren-less arrow functions
+    "arrow-parens": [2, "as-needed"],
+    "prefer-const": ["error", {
+      "destructuring": "any",
+      "ignoreReadBeforeAssign": false
+    }]
+  }
+}

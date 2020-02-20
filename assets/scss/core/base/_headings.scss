@@ -1,0 +1,20 @@
+/** This Place For Headings **/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+$body-font-family: 'Roboto', sans-serif;
+
+* {
+  font-family: $body-font-family !important;
+}
+
+.application {
+  font-family: $body-font-family;
+}
+
+.headline,
+.title,
+.subheading {
+  font-family: $body-font-family !important;
+}
+
+/* ************************************ */

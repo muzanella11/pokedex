@@ -1,0 +1,17 @@
+/******************************************
+  Some tips for creating scoope of responsive :
+  - Copy paste this scoope responsive structure
+  - Layouts path is for responsive of layouts
+  - Modules path is for responsive of blocks / module
+  - Rename with your scoope name
+  - Dont forget to register your responsive scoope into `state/_responsive.scss`
+******************************************/
+/******************************************
+  Module Responsive
+******************************************/
+@import "./modules/responsive-block-example";
+
+/******************************************
+  Layouts Responsive
+******************************************/
+@import "./layouts/responsive-layout-example";
