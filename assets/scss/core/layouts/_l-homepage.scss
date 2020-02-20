@@ -1,0 +1,54 @@
+/******************************************
+  Some tips for creating layouts :
+  - Add `l` prefix before the name of layouts
+  - Or Just copy paste this structure of styling code into your new layouts styling file
+  - Dont forget to register your layouts into `_layouts.scss`
+******************************************/
+/** This Place For Layouts Homepage **/
+.#{$namespace} {
+  & .l-homepage {
+    position: relative;
+    padding: 15%;
+
+    & .homepage {
+      &__wording {
+        &-action {
+          position: relative;
+          padding: 24px;
+          text-align: center;
+        }
+      }
+    }
+
+    & .title {
+      letter-spacing: 8px;
+      padding-bottom: 24px;
+      text-align: center;
+      font-size: 48px;
+    }
+
+    & .poke {
+      display: block;
+      margin: 120px auto 0 auto;
+      width: 80px;
+      height: 80px;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      border-radius: 100%;
+      border: solid #37474f 2px;
+      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/261948/pokeball.png);
+      background-size: contain;
+    }
+    
+    & .stage {
+      border-bottom: solid 3px #eaeaea;
+    }
+    
+    & .bounce {
+      animation-name: pokeball-bounce;
+      animation-timing-function: cubic-bezier(0.28, 0.84, 0.42, 1);
+    }
+  }
+}
+
+/* ************************************ */

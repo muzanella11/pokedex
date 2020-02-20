@@ -1,5 +1,6 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable */
 import LayoutMain from './../../layouts/layout-main'
+/* eslint-enable */
 
 const PokemonPage = (
   <div>
