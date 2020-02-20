@@ -1,9 +1,8 @@
-// eslint-disable-next-line no-unused-vars
+/* eslint-disable */
 import Head from './../components/layouts/head'
-// eslint-disable-next-line no-unused-vars
 import Header from './../components/layouts/header'
-// eslint-disable-next-line no-unused-vars
 import Footer from './../components/layouts/footer'
+/* eslint-enable */
 
 const LayoutMain = props => (
   <React.Fragment>
@@ -18,7 +17,7 @@ const LayoutMain = props => (
     </main>
 
     <Footer>
-      ini footer
+      Pokedex | Nurfirliana Muzanella
     </Footer>
   </React.Fragment>
 )
