@@ -1,0 +1,74 @@
+/******************************************
+  Some tips for creating layouts :
+  - Add `l` prefix before the name of layouts
+  - Or Just copy paste this structure of styling code into your new layouts styling file
+  - Dont forget to register your layouts into `_layouts.scss`
+******************************************/
+/** This Place For Layouts Pokemon **/
+.#{$namespace} {
+  & .l-pokemon {
+    position: relative;
+
+    & .pokemon {
+      &__section {
+        position: relative;
+      }
+
+      &-list {
+        border-top: 4px dotted rgba(0, 0, 0, 0.3);
+        margin-top: 24px;
+        padding-top: 24px;
+
+        & .title {
+          //
+        }
+
+        &__wrapper {
+          position: relative;
+          margin: 0;
+          padding: 0;
+        }
+
+        &__item {
+          & .card {
+            &-img-top {
+              min-height: 150px;
+              background: rgba(0, 0, 0, .05);
+            }
+          }
+        }
+      }
+    }
+
+    & .brand {
+      text-align: center;
+
+      & .title {
+        margin-top: 8px;
+      }
+    }
+
+    & .search-action {
+      &__wrapper-content {
+        position: relative;
+        width: 420px;
+        margin: auto;
+      }
+    }
+
+    & .poke {
+      display: block;
+      margin: 120px auto 0 auto;
+      width: 80px;
+      height: 80px;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+      border-radius: 100%;
+      border: solid #37474f 2px;
+      background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/261948/pokeball.png);
+      background-size: contain;
+    }
+  }
+}
+
+/* ************************************ */
