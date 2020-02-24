@@ -1,6 +1,6 @@
 const Footer = () => (
   <React.Fragment>
-    <footer class="c-footer">
+    <footer className="c-footer">
       Pokedex | Nurfirliana Muzanella
     </footer>
   </React.Fragment>
